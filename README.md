@@ -27,7 +27,7 @@ Remote MCP service is available online via _Streamable HTTP:_
 - http://db.dnaerys.org:80/mcp
 - https://db.dnaerys.org:443/mcp
 
-For local build with _stdio_ transport see [details below](#installation)
+For local build with _stdio_ transport see [details below](https://github.com/dnaerys/onekgp-mcp/?tab=readme-ov-file#installation)
 
 ## Architecture
 
@@ -48,9 +48,14 @@ with recessive and dominant diseases and do clinical implications analysis for t
 
 - it might lead to analysis like [the one](https://claude.ai/public/artifacts/07bdc4ea-02db-414d-b25f-b2cdae7072d0)
 
+or
+
+> Who in KGP has variants with strong pathogenicity evidence associated with liver diseases ?
+  Please find individuals who are at highest risk of being affected and analyse clinical implications.
+
 ## Available Tools
 
-Tools and parameters [are here](./src/main/java/org/dnaerys/mcp/OneKGPMCPServer.java)
+Detailed description of 30 tools with their parameters can be found [here](https://github.com/dnaerys/onekgp-mcp/blob/master/src/main/java/org/dnaerys/mcp/OneKGPMCPServer.java)
 
 ## Installation
 
@@ -67,7 +72,7 @@ can be started as a subprocess by MCP clients (like Claude Desktop or Goose).
 
 - start from MCP client with a full path to the jar file (for _stdio_ transport,
   default configuration) or run as a separate service with streamable HTTP transport
-  (requires a change in [configuration](./src/main/resources/application.properties)) 
+  (requires a change in [configuration](https://github.com/dnaerys/onekgp-mcp/blob/master/src/main/resources/application.properties)) 
     - project expects _JRE 21_ to be available at runtime 
 
 ```shell script
@@ -78,7 +83,7 @@ java -jar <full path>/onekgp-mcp-runner.jar
 
 To use with Claude Desktop, add to `claude_desktop_config.json`:
 
-```
+```json
 {
   "mcpServers": {
     "OneKGP": {
@@ -96,4 +101,4 @@ To use with Claude Desktop, add to `claude_desktop_config.json`:
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/dnaerys/onekgp-mcp/blob/master/LICENSE) file for details.
