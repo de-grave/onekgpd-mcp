@@ -43,14 +43,28 @@ gRPC API calls to public _Dnaerys variant store_ service with _1000 Genomes data
 Try open-ended questions to leverage analytical strength of LLMs, e.g.
 
 > _What disease associated mutations exist in the KGP dataset, mostly for cancer related and blood related disorders ?
- Find affected people with recessive and dominant diseases and do clinical implications analysis for them._
+ Find affected people with recessive and dominant diseases and analyse clinical implications._
 
-- it might lead to analysis like [this one](https://claude.ai/public/artifacts/07bdc4ea-02db-414d-b25f-b2cdae7072d0)
+- analysis [result](https://claude.ai/public/artifacts/07bdc4ea-02db-414d-b25f-b2cdae7072d0)
 
 or
 
-> _What variants with strong pathogenicity evidence associated with heart diseases exist in KGP ?
- Please find individuals who are at highest risk of being affected and analyse clinical implications._
+> _Which variants in HBB gene are unexpectedly tolerated in the KGP dataset among those
+where at least several annotations provide strong evidence for expected pathogenicity ?_
+
+- > _What is the most plausible explanation for why these variants present in healthy individuals ?_
+
+or
+
+> _Rank all rare KGP variants in genes associated with arrhythmia disorder by their expected clinical relevance, not by predicted pathogenicity alone._
+
+- > _Who are affected individuals with highest clinical priority variants ?_
+    - analysis [result](https://claude.ai/public/artifacts/c4fba7d9-545c-44ed-bc82-8c31a984e72a)
+
+or
+
+> _Are there patterns of variation in KGP dataset that suggest digenic inheritance patterns for Bardet-Biedl syndrome or skeletal dysplasias ?_
+
 
 ## Available Tools
 
