@@ -38,20 +38,19 @@ gRPC API calls to public _Dnaerys variant store_ service with _1000 Genomes data
 - provides MCP over _Streamable HTTP_, _HTTP/SSE_ and _STDIO_ transports
 
 
-## Usage Example
+## Examples
 
 Try open-ended questions to leverage analytical strength of LLMs, e.g.
 
-> I'd like to know what disease associated mutations exist in the KGP dataset,
-mostly for cancer related and blood related disorders. Find affected people
-with recessive and dominant diseases and do clinical implications analysis for them.
+> _What disease associated mutations exist in the KGP dataset, mostly for cancer related and blood related disorders ?
+ Find affected people with recessive and dominant diseases and do clinical implications analysis for them._
 
-- it might lead to analysis like [the one](https://claude.ai/public/artifacts/07bdc4ea-02db-414d-b25f-b2cdae7072d0)
+- it might lead to analysis like [this one](https://claude.ai/public/artifacts/07bdc4ea-02db-414d-b25f-b2cdae7072d0)
 
 or
 
-> Who in KGP has variants with strong pathogenicity evidence associated with liver diseases ?
-  Please find individuals who are at highest risk of being affected and analyse clinical implications.
+> _What variants with strong pathogenicity evidence associated with heart diseases exist in KGP ?
+ Please find individuals who are at highest risk of being affected and analyse clinical implications._
 
 ## Available Tools
 
