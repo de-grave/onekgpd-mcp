@@ -40,7 +40,8 @@ to public _Dnaerys variant store_ service with _1000 Genomes dataset_ hosted onl
 
 ## Examples
 
-Try analytical or open-ended questions to leverage analytical strength of LLMs, e.g.
+Some of the prompts below were answered by Anthropic's _[multi-agent Research system](https://www.anthropic.com/engineering/multi-agent-research-system)_,
+and some by single-agent system in _extended thinking mode_.
 
 > _Identify potential modifier variants for well-known pathogenic alleles in TTN - variants that consistently co-occur
 in the same haplotype block with pathogenic alleles and may alter severity or penetrance. Conduct research for pathogenic
@@ -49,11 +50,15 @@ alleles documented in the literature. Use KGP dataset of healthy individuals to
 No initial constraints for modifier types._
 
 - results might be _[some](https://claude.ai/public/artifacts/0185184c-96c6-4b2d-b1e3-d0d31a2c63df?fullscreen=true)_ _(Sonnet 4.5)_
+    - it feels a bit unreal how easily this thing can pull _not entirely nonsensical_ events with p = 2.29×10⁻¹³ from a dataset...
+    which makes one wonder what else is possible with a proper study design, specialised disease and
+    [control](https://www.nature.com/articles/s41467-019-14079-0) cohorts, and a bit more dedication
 - same task for _[KCNH2](https://claude.ai/public/artifacts/76761984-e06f-4fd9-9756-985692368cf9?fullscreen=true)_,
 _[SCN5A](https://claude.ai/public/artifacts/f7930887-37cb-4174-b1db-7408eff0780f?fullscreen=true)_,
-_[CACNA1C](https://claude.ai/public/artifacts/e857caf7-da6d-43f3-a8b7-36722a89f728?fullscreen=true)_, 
-_[LMNA](https://claude.ai/public/artifacts/f12146e4-d9cc-48e3-9918-98d20796af6b?fullscreen=true)_ and
-_[SPAST](https://claude.ai/public/artifacts/18ab99c2-d059-4592-969a-90c031290f8b?fullscreen=true)_ _(Sonnet 4.5)_
+_[CACNA1C](https://claude.ai/public/artifacts/e857caf7-da6d-43f3-a8b7-36722a89f728?fullscreen=true)_,
+_[LMNA](https://claude.ai/public/artifacts/f12146e4-d9cc-48e3-9918-98d20796af6b?fullscreen=true)_,
+_[SPAST](https://claude.ai/public/artifacts/18ab99c2-d059-4592-969a-90c031290f8b?fullscreen=true)_ and
+_[BMPR2](https://claude.ai/public/artifacts/7163af75-20aa-41d4-8828-6accd7dc97f2?fullscreen=true)_ _(Sonnet 4.5)_
 
 or
 
