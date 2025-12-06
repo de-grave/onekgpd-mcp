@@ -40,7 +40,7 @@ MCP Server is implemented as a Java EE service, accessing _1KGP dataset_ via gRP
 ## Examples
 
 Answers below are from _Sonnet 4.5_: some from _[multi-agent Research system](https://www.anthropic.com/engineering/multi-agent-research-system)_,
-some with _extended thinking mode_, and some from a single-agent system in normal mode.
+some with _extended thinking mode_, and some from a single-agent system in normal mode.  
 
 > _Identify potential modifier variants for well-known pathogenic alleles in TTN - variants that consistently co-occur
 in the same haplotype block with pathogenic alleles and may alter severity or penetrance. Conduct research for pathogenic
@@ -67,7 +67,9 @@ variation patterns across functional domains in KGP ? Do statistical evaluation.
 [SCN1A](https://claude.ai/public/artifacts/7ce01d30-9bbc-4823-9be5-4d20f51137e1?fullscreen=true),
 [SCN2A](https://claude.ai/public/artifacts/9be55bf0-c38f-4aba-bfd3-4361463b713b?fullscreen=true) ([chart](https://github.com/user-attachments/assets/9c1d6c6b-55b7-41a2-be85-b0f9fde08c68)), 
 [POLR2A](https://claude.ai/public/artifacts/eeaa2483-a7ca-4f4e-81c3-e9ea435bd438?fullscreen=true) ([chart](https://github.com/user-attachments/assets/7df15795-351b-4066-8a81-fd3f98134f08)), 
-[RPL5](https://claude.ai/public/artifacts/75f05627-75e2-4826-a2f0-13d2bd05e7e7?fullscreen=true) ([interactive vis](https://claude.ai/public/artifacts/a7baecef-83e7-463f-a2cf-0dfee441e24a))
+[RPL5](https://claude.ai/public/artifacts/75f05627-75e2-4826-a2f0-13d2bd05e7e7?fullscreen=true) ([interactive vis](https://claude.ai/public/artifacts/a7baecef-83e7-463f-a2cf-0dfee441e24a)),
+[RPL11](https://claude.ai/public/artifacts/f3fe732b-671b-48f9-956a-439d2d46698b?fullscreen=true),
+[RPS26](https://claude.ai/public/artifacts/50c82a35-427e-494c-ab30-8b03b8dafc7c?fullscreen=true)
 
 or
 
