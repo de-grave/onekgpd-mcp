@@ -27,7 +27,7 @@ Remote MCP service is available online via _Streamable HTTP:_
 - http://db.dnaerys.org:80/mcp
 - https://db.dnaerys.org:443/mcp
 
-For local build with _stdio_ transport see [details below](https://github.com/dnaerys/onekgp-mcp/?tab=readme-ov-file#installation)
+For local build with _stdio_ transport see [details below](https://github.com/dnaerys/onekgpd-mcp/?tab=readme-ov-file#installation)
 
 ## Architecture
 
@@ -100,7 +100,7 @@ _Feel free to open a PR with your favorite prompts_
 
 ## Available Tools
 
-Description for 30 tools and parameters can be found [here](https://github.com/dnaerys/onekgp-mcp/blob/master/src/main/java/org/dnaerys/mcp/OneKGPMCPServer.java)
+Description for 30 tools and parameters can be found [here](https://github.com/dnaerys/onekgpd-mcp/blob/master/src/main/java/org/dnaerys/mcp/OneKGPMCPServer.java)
 
 ## Installation
 
@@ -108,7 +108,7 @@ Project can be run locally with MCP over _stdio_ transport, so the MCP server
 can be started as a subprocess by MCP clients (like Claude Desktop or Goose).
 
 - build the project and package it as a single _über-jar_:
-    - jar is located in `target/onekgp-mcp-runner.jar` and includes all dependencies
+    - jar is located in `target/onekgpd-mcp-runner.jar` and includes all dependencies
 
 ```shell script
 ./mvnw clean
@@ -117,11 +117,11 @@ can be started as a subprocess by MCP clients (like Claude Desktop or Goose).
 
 - start from MCP client with a full path to the jar file (for _stdio_ transport,
   default configuration) or run as a separate service with streamable HTTP transport
-  (requires a change in [configuration](https://github.com/dnaerys/onekgp-mcp/blob/master/src/main/resources/application.properties)) 
+  (requires a change in [configuration](https://github.com/dnaerys/onekgpd-mcp/blob/master/src/main/resources/application.properties)) 
     - project expects _JRE 21_ to be available at runtime 
 
 ```shell script
-java -jar <full path>/onekgp-mcp-runner.jar
+java -jar <full path>/onekgpd-mcp-runner.jar
 ```
 
 #### Usage with Claude Desktop
@@ -131,9 +131,9 @@ To use with Claude Desktop, add to `claude_desktop_config.json`:
 ```json
 {
   "mcpServers": {
-    "OneKGP": {
+    "OneKGPD": {
       "command": "java",
-      "args": ["-jar", "/full/path/onekgp-mcp-runner.jar"]
+      "args": ["-jar", "/full/path/onekgpd-mcp-runner.jar"]
     }
   }
 }
@@ -146,4 +146,4 @@ To use with Claude Desktop, add to `claude_desktop_config.json`:
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/dnaerys/onekgp-mcp/blob/master/LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/dnaerys/onekgpd-mcp/blob/master/LICENSE) file for details.
